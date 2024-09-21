@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a732758-1aba-4618-b9a7-638476027e29" name="Changes" comment="fixed main file error" />
+    <list default="true" id="2a732758-1aba-4618-b9a7-638476027e29" name="Changes" comment="rm Gson libs- this was causing an issue due to the file used was not the correct file">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2_aggregationServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_aggregationServer.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "assignment2",
@@ -91,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726849415482</updated>
-      <workItem from="1726849416492" duration="3584000" />
+      <workItem from="1726849416492" duration="6486000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -117,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726877282162</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed main file error">
+      <option name="closed" value="true" />
+      <created>1726877481278</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726877481278</updated>
+    </task>
+    <task id="LOCAL-00005" summary="rm Gson libs- this was causing an issue due to the file used was not the correct file">
+      <option name="closed" value="true" />
+      <created>1726879364615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726879364615</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +184,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="fixed main file error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed main file error" />
+    <MESSAGE value="rm Gson libs- this was causing an issue due to the file used was not the correct file" />
+    <option name="LAST_COMMIT_MESSAGE" value="rm Gson libs- this was causing an issue due to the file used was not the correct file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
